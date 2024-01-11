@@ -31,5 +31,23 @@
             <li>Item3</li>
         </ol>
 
+        <!-- Anchor element for adding link -->
+        <a>click me</a>
+        <!-- Opens ling in same webpage -->
+        <a href="https://www.theodinproject.com/about">working click me</a>
+        <!-- Opens link in another webpage -->
+        <!-- While href specifies the destination link, target specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the _self value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to _blank as follows -->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">new webpage click me</a>
+        <!-- Link webpages of same website(Relative link) -->
+        <a href="about.html">About</a>
+        <!-- linking page inside directoray -->
+        <a href="./test/test.html">Test</a> 
+        <!-- Add image -->
+        <img src="./test/img1.jpg" alt="A dog">
+        <!-- To go to the parent directory we need to use two dots in the relative filepath like this: ../. Let’s see this in action, within the body of the about.html file, add the following image below the heading we added earlier -->
+        <!-- Adding dimensios like height and width -->
+        <img src="./test/img1.jpg" alt="A dog" height="310" width="310">
+        
+
     </body>
 </html>
