@@ -1,0 +1,12 @@
+.paragraph{
+    color: purple;
+
+}
+p{
+    color: aqua;
+    background-color: black;
+}
+p#ye{
+    color: yellow;
+    background-color: black;
+}
